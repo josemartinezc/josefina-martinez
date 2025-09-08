@@ -56,8 +56,8 @@ Esto instalará MkDocs y el tema Material, necesarios para este proyecto.
 Ejecuta:
 
 ```bash
-git clone git@github.com:fablabbcn/efdi-template.git
-cd efdi-template
+git clone git@github.com:josemartinezc/josefina-martinez.git
+cd josefina-martinez
 ```
 
 ---
