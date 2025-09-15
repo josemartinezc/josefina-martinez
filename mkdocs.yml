@@ -49,7 +49,7 @@ theme:
     text: Be Vietnam
     code: Cutive Mono
   icon:
-    logo: material/memory
+    logo: images/pastor.png
   favicon: images/favicon.svg
   features:
     - instant
