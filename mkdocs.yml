@@ -52,13 +52,6 @@ theme:
     pastor: images/pastor.svg
   favicon: images/favicon.svg
   features:
-    - instant
-    - navigation.instant
-    # - navigation.prune
-    # - navigation.sections
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.tracking
     - navigation.tabs        # Menú horizontal arriba
     - navigation.tabs.sticky # Que quede fijo al hacer scroll
     - navigation.sections    # Submenús desplegables al pasar/tocar
