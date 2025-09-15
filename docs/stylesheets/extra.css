@@ -27,6 +27,11 @@
 
 }
 
+/* Cambiar color de los links al pasar el mouse en el contenido */
+.md-typeset a:hover {
+    color: rgb(229, 68, 109); /* el color que quieras */
+}
+
 /* ===============================
    SCROLLBAR (OCULTAR BARRA)
    =============================== */
