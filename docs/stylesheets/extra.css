@@ -22,9 +22,6 @@
     /* Color de los enlaces (links) */
     --md-typeset-a-color: rgb(255, 137, 102);
 
-    /* Color de los links del menú al pasar el mouse */
-    --md-nav-link-hover-color: rgb(229, 68, 109); /* tu color rosa/violeta */
-
 }
 
 /* Cambiar color de los links al pasar el mouse en el contenido */
