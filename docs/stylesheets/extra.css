@@ -12,8 +12,8 @@
     --md-footer-bg-color--dark: rgb(42, 43, 42);
 
     /* Colores más claros del texto en el footer */
-    --md-footer-fg-color--lighter:  rgb(42, 43, 42);
-    --md-footer-fg-color--light:    rgb(42, 43, 42);
+    --md-footer-fg-color--lighter:  rgb(255, 137, 102);
+    --md-footer-fg-color--light:    rgb(255, 137, 102);
 
     /* Tipografía general del sitio */
     --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
@@ -49,7 +49,7 @@
 .cardContent {
   padding: 16px;             /* margen interno */
   font-size: 16px;           /* tamaño de letra */
-  color: rgb(32, 32, 32);    /* color del texto */
+  color: rgb(255, 137, 102);
 }
 
 /* ===============================
