@@ -1,48 +1,88 @@
+/* ===============================
+   COLORES Y TIPOGRAFÍAS GENERALES
+   =============================== */
 :root>* {
-
+    /* Fondo del footer */
     --md-footer-bg-color: rgb(96, 3, 82);
+
+    /* Color principal del texto en el footer */
     --md-footer-fg-color: rgb(215, 210, 215);
+
+    /* Fondo del footer en modo oscuro */
     --md-footer-bg-color--dark: rgb(96, 3, 82);
+
+    /* Colores más claros del texto en el footer */
     --md-footer-fg-color--lighter:  rgb(246, 128, 220);
-    --md-footer-fg-color--light:  rgb(246, 128, 220);
+    --md-footer-fg-color--light:    rgb(246, 128, 220);
+
+    /* Tipografía general del sitio */
     --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
     --mdc-typography-font-family: 'Be Vietnam', sans-serif;
+
+    /* Color de los enlaces (links) */
     --md-typeset-a-color: rgb(96, 3, 82);
-
 }
 
-
+/* ===============================
+   SCROLLBAR (OCULTAR BARRA)
+   =============================== */
 .hide-scroll-bar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-  .hide-scroll-bar::-webkit-scrollbar {
-    display: none;
-  }
+    -ms-overflow-style: none; /* IE y Edge */
+    scrollbar-width: none;    /* Firefox */
+}
+.hide-scroll-bar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
 
-  .md-typeset .md-button--primary {
-    border-width: 1px;
-    border-color: rgb(219, 219, 219);
-    border-radius: 4px;
-  }
+/* ===============================
+   BOTONES
+   =============================== */
+.md-typeset .md-button--primary {
+    border-width: 1px;            /* grosor del borde */
+    border-color: rgb(219, 219, 219); /* color del borde */
+    border-radius: 4px;           /* esquinas redondeadas */
+}
 
+/* ===============================
+   TARJETAS (estilo de bloques)
+   =============================== */
 .cardContent {
-  padding: 16px;
-  font-size: 16px;
-  color: rgb(32, 32, 32);
+  padding: 16px;             /* margen interno */
+  font-size: 16px;           /* tamaño de letra */
+  color: rgb(32, 32, 32);    /* color del texto */
 }
 
+/* ===============================
+   TITULOS (H2)
+   =============================== */
 .md-typeset h2 {
-    font-weight: 500;
+    font-weight: 500;  /* grosor intermedio */
 }
 
+/* ===============================
+   TEXTO SECUNDARIO (BODY2)
+   =============================== */
 .mdc-typography--body2 {
-    font-weight: 300;
-    font-size: 14px;
+    font-weight: 300;  /* más fino */
+    font-size: 14px;   /* más chico */
 }
 
+/* ===============================
+   COLORES PRINCIPALES DEL TEMA
+   =============================== */
 :root {
-  --md-primary-fg-color:        rgb(216, 164, 197);
-  --md-primary-fg-color--light: rgb(115, 8, 113);
-  --md-primary-fg-color--dark:  rgb(216, 164, 197);
+  --md-primary-fg-color:        rgb(216, 164, 197); /* color primario general */
+  --md-primary-fg-color--light: rgb(115, 8, 113);   /* versión clara */
+  --md-primary-fg-color--dark:  rgb(216, 164, 197); /* versión oscura */
 }
+
+/* ===============================
+   FONDO Y TEXTO PRINCIPAL
+   =============================== */
+:root {
+    /* Fondo base del sitio (contenido principal) */
+    --md-default-bg-color: #c9bcc9; 
+
+    /* Color del texto principal */
+    --md-default-fg-color: #750c5d;
+} 
