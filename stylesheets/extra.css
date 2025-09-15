@@ -3,10 +3,10 @@
    =============================== */
 :root>* {
     /* Fondo del footer */
-    --md-footer-bg-color: rgb(255, 137, 102);
+    --md-footer-bg-color: rgb(248,244,227);
 
     /* Color principal del texto en el footer */
-    --md-footer-fg-color: rgb(248, 244, 227);
+    --md-footer-fg-color: rgb(229, 68, 109);
 
     /* Fondo del footer en modo oscuro */
     --md-footer-bg-color--dark: rgb(229, 68, 109);
@@ -25,9 +25,10 @@
 }
 
 /* Cambiar color de los links al pasar el mouse en el contenido */
-.md-typeset a:hover {
-    color: rgb(229, 68, 109); /* el color que quieras */
+:root {
+  --md-accent-fg-color: rgb(229, 68, 109); /* color para hover */
 }
+
 
 /* ===============================
    SCROLLBAR (OCULTAR BARRA)
