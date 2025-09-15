@@ -1,13 +1,13 @@
 :root>* {
 
-    --md-footer-bg-color: white;
-    --md-footer-fg-color: rgb(32, 32, 32);
-    --md-footer-bg-color--dark: white;
-    --md-footer-fg-color--lighter:  rgb(32, 32, 32);
-    --md-footer-fg-color--light:  rgb(32, 32, 32);
+    --md-footer-bg-color: rgb(96, 3, 82);
+    --md-footer-fg-color: rgb(215, 210, 215);
+    --md-footer-bg-color--dark: rgb(96, 3, 82);
+    --md-footer-fg-color--lighter:  rgb(246, 128, 220);
+    --md-footer-fg-color--light:  rgb(246, 128, 220);
     --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
     --mdc-typography-font-family: 'Be Vietnam', sans-serif;
-    --md-typeset-a-color: rgb(12, 240, 190);
+    --md-typeset-a-color: rgb(96, 3, 82);
 
 }
 
@@ -42,7 +42,7 @@
 }
 
 :root {
-  --md-primary-fg-color:        #0c453aff;
-  --md-primary-fg-color--light: rgb(37, 243, 202);
-  --md-primary-fg-color--dark:  #0c453aff;
+  --md-primary-fg-color:        rgb(216, 164, 197);
+  --md-primary-fg-color--light: rgb(115, 8, 113);
+  --md-primary-fg-color--dark:  rgb(216, 164, 197);
 }
