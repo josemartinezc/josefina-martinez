@@ -93,3 +93,11 @@
     /* Color del texto principal */
     --md-default-fg-color: rgb(42, 43, 42);
 } 
+
+
+/* Forzar dropdown al pasar el mouse */
+.md-tabs__item:hover .md-tabs__link--active ~ .md-nav {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}

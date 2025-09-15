@@ -53,15 +53,15 @@ theme:
   favicon: images/favicon.svg
   features:
     - instant
-    - navigation.expand
-    - navigation.indexes
     - navigation.instant
     # - navigation.prune
     # - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.top
     - navigation.tracking
+    - navigation.tabs        # Menú horizontal arriba
+    - navigation.tabs.sticky # Que quede fijo al hacer scroll
+    - navigation.sections    # Submenús desplegables al pasar/tocar
 
 plugins:
   - search
