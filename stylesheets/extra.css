@@ -9,11 +9,11 @@
     --md-footer-fg-color: rgb(248, 244, 227);
 
     /* Fondo del footer en modo oscuro */
-    --md-footer-bg-color--dark: rgb(42, 43, 42);
+    --md-footer-bg-color--dark: rgb(229, 68, 109);
 
     /* Colores más claros del texto en el footer */
-    --md-footer-fg-color--lighter:  rgb(255, 137, 102);
-    --md-footer-fg-color--light:    rgb(255, 137, 102);
+    --md-footer-fg-color--lighter:  rgb(248, 244, 227);
+    --md-footer-fg-color--light:    rgb(248, 244, 227);
 
     /* Tipografía general del sitio */
     --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
