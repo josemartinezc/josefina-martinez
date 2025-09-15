@@ -3,24 +3,24 @@
    =============================== */
 :root>* {
     /* Fondo del footer */
-    --md-footer-bg-color: rgb(96, 3, 82);
+    --md-footer-bg-color: #E5446D;
 
     /* Color principal del texto en el footer */
-    --md-footer-fg-color: rgb(215, 210, 215);
+    --md-footer-fg-color: #F8F4E3;
 
     /* Fondo del footer en modo oscuro */
-    --md-footer-bg-color--dark: rgb(96, 3, 82);
+    --md-footer-bg-color--dark: #2A2B2A;
 
     /* Colores más claros del texto en el footer */
-    --md-footer-fg-color--lighter:  rgb(246, 128, 220);
-    --md-footer-fg-color--light:    rgb(246, 128, 220);
+    --md-footer-fg-color--lighter:  #2A2B2A;
+    --md-footer-fg-color--light:    #2A2B2A;
 
     /* Tipografía general del sitio */
     --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
     --mdc-typography-font-family: 'Be Vietnam', sans-serif;
 
     /* Color de los enlaces (links) */
-    --md-typeset-a-color: rgb(96, 3, 82);
+    --md-typeset-a-color: #FF8966;
 }
 
 /* ===============================
@@ -39,7 +39,7 @@
    =============================== */
 .md-typeset .md-button--primary {
     border-width: 1px;            /* grosor del borde */
-    border-color: rgb(219, 219, 219); /* color del borde */
+    border-color: #F8F4E3; /* color del borde */
     border-radius: 4px;           /* esquinas redondeadas */
 }
 
@@ -71,9 +71,9 @@
    COLORES PRINCIPALES DEL TEMA
    =============================== */
 :root {
-  --md-primary-fg-color:        rgb(216, 164, 197); /* color primario general */
-  --md-primary-fg-color--light: rgb(115, 8, 113);   /* versión clara */
-  --md-primary-fg-color--dark:  rgb(216, 164, 197); /* versión oscura */
+  --md-primary-fg-color:        #E5446D; /* color primario general */
+  --md-primary-fg-color--light: #F8F4E3;   /* versión clara */
+  --md-primary-fg-color--dark:  #706C61; /* versión oscura */
 }
 
 /* ===============================
@@ -81,8 +81,8 @@
    =============================== */
 :root {
     /* Fondo base del sitio (contenido principal) */
-    --md-default-bg-color: #c9bcc9; 
+    --md-default-bg-color: #F8F4E3; 
 
     /* Color del texto principal */
-    --md-default-fg-color: #750c5d;
+    --md-default-fg-color: #2A2B2A;
 } 
