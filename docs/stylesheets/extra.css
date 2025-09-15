@@ -3,13 +3,13 @@
    =============================== */
 :root>* {
     /* Fondo del footer */
-    --md-footer-bg-color: rgb(229, 68, 109);
+    --md-footer-bg-color: rgb(255, 137, 102);
 
     /* Color principal del texto en el footer */
     --md-footer-fg-color: rgb(248, 244, 227);
 
     /* Fondo del footer en modo oscuro */
-    --md-footer-bg-color--dark: rgb(255, 137, 102);
+    --md-footer-bg-color--dark: rgb(229, 68, 109);
 
     /* Colores más claros del texto en el footer */
     --md-footer-fg-color--lighter:  rgb(248, 244, 227);
@@ -23,7 +23,7 @@
     --md-typeset-a-color: rgb(255, 137, 102);
 
     /* Color de los links del menú al pasar el mouse */
-    --md-nav-link-hover-color:rgb(229, 68, 109); /* tu color rosa/violeta */
+    --md-nav-link-hover-color: rgb(229, 68, 109); /* tu color rosa/violeta */
 
 }
 
