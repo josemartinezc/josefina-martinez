@@ -1,9 +1,9 @@
 # Replace the text below to customize your site
-site_name: Nombre Estudiante - UTEC & Fab Lab Barcelona
-site_description: Master in Design for Emergent Futures
-site_author: Nombre Estudiante
-copyright: Copyleft 2024 "Nombre Estudiante" - GNU Free Documentation License
-repo_name: 'Name : Github Repo'
+site_name: María Josefina Martínez - UTEC & Fab Lab Barcelona
+site_description: Especialización en fabricación digital e innovación
+site_author: María Josefina Martínez
+copyright: Copyleft 2024 "María Josefina Martínez" - GNU Free Documentation License
+repo_name: 'Name : Josefina-Martínez'
 site_url: https://josemartinezc.github.io/josefina-martinez/
 repo_url: https://github.com/josemartinezc/josefina-martinez
 
@@ -43,7 +43,7 @@ theme:
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: custom
-    accent: purple
+    accent: custom
   font:
     # See available fonts at https://fonts.google.com/
     text: Be Vietnam
