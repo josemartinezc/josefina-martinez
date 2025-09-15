@@ -7,26 +7,23 @@ repo_name: 'Name : Josefina-Martínez'
 site_url: https://josemartinezc.github.io/josefina-martinez/
 repo_url: https://github.com/josemartinezc/josefina-martinez
 
-
 nav:
   - Home: index.md
   - About: about/me.md
-  - Modulos Técnicos :
+  - Modulos Técnicos:
     - MT01: tecnicos/mt01.md
     - MT02: tecnicos/mt02.md
-  - Modulos Diseño :
+  - Modulos Diseño:
     - MD01: diseno/md01.md
-  - Modulos Innovación :
+  - Modulos Innovación:
     - MI01: inn/mi01.md
   - Proyecto Integrador:
     - Ideas Iniciales: proyecto/proyecto.md
   - Referencias:
     - web: ref/web.md
 
-
 extra:
   social:
-    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
     - icon: fontawesome/brands/medium
       link: https://medium.com/
     - icon: fontawesome/brands/instagram
@@ -41,20 +38,16 @@ extra:
 theme:
   name: material
   palette:
-    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: custom
     accent: custom
   font:
-    # See available fonts at https://fonts.google.com/
     text: Be Vietnam
     code: Cutive Mono
-  icon:
-    pastor: images/pastor.svg
   favicon: images/favicon.svg
   features:
-    - navigation.tabs        # Menú horizontal arriba
-    - navigation.tabs.sticky # Que quede fijo al hacer scroll
-    - navigation.sections    # Submenús desplegables al pasar/tocar
+    - navigation.tabs        # Menú superior en fila
+    - navigation.sections    # Submenús desplegables hacia abajo
+    - navigation.tabs.sticky # Menú fijo al hacer scroll
 
 plugins:
   - search
@@ -74,7 +67,6 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-
   - md_in_html
   - admonition
   - codehilite
