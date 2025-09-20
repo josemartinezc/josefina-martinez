@@ -9,7 +9,9 @@ Según mi Linkedin:
 Según mi Instagram:
 
 "Tengo pestañitas blancas 🤍
+
 Cuando uso moña me convierto en atleta 🎀 🏋🏽‍♀️
+
 Sino soy ingeniera y tía de 3 🩷🩵💜"
 
 Y si, me recibí de ingeniera electróncia en Abril, mirenme con mis 2 sobrinos, la sonrisa no entraba en la cara!
