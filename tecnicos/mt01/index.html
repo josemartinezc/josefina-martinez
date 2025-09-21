@@ -289,8 +289,29 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#paso-2-enlazarlo-a-mi-pc-con-un-repo-local" class="md-nav__link">
-    Paso 2: Enlazarlo a mi PC, con un repo local.
+  <a href="#paso-21-enlazarlo-a-mi-pc-con-un-repo-local" class="md-nav__link">
+    Paso 2.1: Enlazarlo a mi PC, con un repo local.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-22-generar-la-ssh-key" class="md-nav__link">
+    Paso 2.2: Generar la SSH Key
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-3-generar-mi-repositorio" class="md-nav__link">
+    Paso 3: Generar mi repositorio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-4-generar-mi-pedacito-de-internet" class="md-nav__link">
+    Paso 4: Generar Mi Pedacito de Internet
   </a>
   
 </li>
@@ -515,8 +536,29 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#paso-2-enlazarlo-a-mi-pc-con-un-repo-local" class="md-nav__link">
-    Paso 2: Enlazarlo a mi PC, con un repo local.
+  <a href="#paso-21-enlazarlo-a-mi-pc-con-un-repo-local" class="md-nav__link">
+    Paso 2.1: Enlazarlo a mi PC, con un repo local.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-22-generar-la-ssh-key" class="md-nav__link">
+    Paso 2.2: Generar la SSH Key
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-3-generar-mi-repositorio" class="md-nav__link">
+    Paso 3: Generar mi repositorio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-4-generar-mi-pedacito-de-internet" class="md-nav__link">
+    Paso 4: Generar Mi Pedacito de Internet
   </a>
   
 </li>
@@ -560,13 +602,50 @@
     </p>
   </div>
   <div style="flex: 1; text-align: right;">
-    <img src="../images/jazmin1.png" width="500"/>
+    <img src="../images/jazmin1.png" width="500" alt="Perro Jazmín, blanco, caricaturesco sentado erguido, sonríe ampliamente y levanta una pata con el dedo índice extendido como si estuviera señalando o compartiendo una idea. El perro transmite simpatía y entusiasmo. El fondo es simple y no contiene otros elementos ni texto."/>
   </div>
 </div>
 
 <p><a href="https://github.com/josemartinezc">Mi repo de GitHub</a></p>
-<h3 id="paso-2-enlazarlo-a-mi-pc-con-un-repo-local">Paso 2: Enlazarlo a mi PC, con un repo local.<a class="headerlink" href="#paso-2-enlazarlo-a-mi-pc-con-un-repo-local" title="Permanent link">&para;</a></h3>
-<p>Esto me llevó mas tiempo&hellip; nunca había usado una API key. Acá el paso a paso que hice para poder generarla y enlazar mi GitHub de manera mas segura.</p>
+<h3 id="paso-21-enlazarlo-a-mi-pc-con-un-repo-local">Paso 2.1: Enlazarlo a mi PC, con un repo local.<a class="headerlink" href="#paso-21-enlazarlo-a-mi-pc-con-un-repo-local" title="Permanent link">&para;</a></h3>
+<p>Esto me llevó mas tiempo&hellip; nunca había usado una SSH key. Acá el paso a paso que hice para poder generarla y enlazar mi GitHub de manera mas segura.</p>
+<p>Para hacer este paso fue necesario tener descargado en la PC Git Bash. En caso de no tenerlo descargado previamente en otra PC, se descarga de internet.</p>
+<p>Mediante el comando </p>
+<p><div class="highlight"><pre><span></span><code>git<span class="w"> </span>config<span class="w"> </span>user.email<span class="w"> </span><span class="s2">&quot;mi correo&quot;</span>
+git<span class="w"> </span>config<span class="w"> </span>user.name<span class="w"> </span><span class="s2">&quot;mi nombre de usuario&quot;</span>
+</code></pre></div>
+en la ventana de comandos enlace mi usuario de GitHub. Verificandolo luego.</p>
+<p><img alt="" src="../../images/git1.png" /></p>
+<h3 id="paso-22-generar-la-ssh-key">Paso 2.2: Generar la SSH Key<a class="headerlink" href="#paso-22-generar-la-ssh-key" title="Permanent link">&para;</a></h3>
+<p>Este paso es clave para que la conexión entre los repositorios remotos de GitHub y los locales de mi PC se hagan se manera segura. UPS! Hasta ahora había sido insegura. </p>
+<p>Primero generé la contraseña (key) local. Y después la vizualisé para copiarla, porque la iba a necesitar después.</p>
+<p><div class="highlight"><pre><span></span><code>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>rsa-C<span class="w"> </span><span class="s2">&quot;mi correo&quot;</span>
+cat<span class="w"> </span>~/.ssh/id_rsa.pub
+</code></pre></div>
+Con el texto que aparecía, una mezcla muy larga de letras y numeros, me fuí al navegador, entré a GitHub y me dirigí a Configuración (Paso 1) y después SSH and GPG keys (Paso 2).</p>
+<p><img alt="" src="../../images/git2.jpg" /></p>
+<p>En esa ventana se debe selecciónar &ldquo;New SSH key&rdquo; (Paso 3) y una vez hecho tiene que figurar una ventana como la remaracada en azul. Eso es señal de que quedó bien :)</p>
+<p><img alt="" src="../../images/git3.jpg" /></p>
+<h3 id="paso-3-generar-mi-repositorio">Paso 3: Generar mi repositorio<a class="headerlink" href="#paso-3-generar-mi-repositorio" title="Permanent link">&para;</a></h3>
+<p>Le voy a llamar a esta página de GitHub, por ahora mi lugar de documentación de la especialización en Fabricación Digital e Innovación: <span style="color:#e5446d"><i>Mi Pedacito de Internet</i></span>. Lo creé a partir de un template guardado en otro repositorio de FabLab Barcelona, generado con el proposito de cumplir la función de espacio para documentación. </p>
+<p><a href="https://github.com/fablabbcn/efdi-template">Repositorio del Template de EFDI</a></p>
+<p>Para esto se debe hacer un &ldquo;Fork&rdquo; (Paso 4) que es como generar una copia del repositorio completo, y tener mi propio repositorio.</p>
+<p><img alt="" src="../../images/git4.jpg" /></p>
+<p>Una vez generado el Fork, queda guardada una copia en mi repositorio remoto, en otras palabras, en mi GitHub. Para poder editar esto, de una manera sencilla, en un editor de texto amigable, y trabajar en mi propia PC, es que hacemos el ultimo paso, de generar un repositorio local.</p>
+<p><em>Repositorio local: una carpeta en mi compu (basicamente).</em></p>
+<p>La magia es que no es solo una carpeta en mi compu, sino que es un archivo de git, con todo el historial de cambios, conectado a un repositorio remoto, al que cualquier puede acceder.</p>
+<p>Para hacer todo ese biru biru, que suena mas complejo de lo que realmente termina siendo, tuve que generar un &ldquo;Clone&rdquo; (Paso 5) en un lugar de mi PC. </p>
+<p><img alt="" src="../../images/git5.jpg" /></p>
+<p>Copiar ese enlace, y luego en una ventana de comandos abierta donde quiera guardar el repositorio local ejecutar:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>&lt;ctrl<span class="w"> </span>v&gt;
+</code></pre></div>
+<h3 id="paso-4-generar-mi-pedacito-de-internet">Paso 4: Generar Mi Pedacito de Internet<a class="headerlink" href="#paso-4-generar-mi-pedacito-de-internet" title="Permanent link">&para;</a></h3>
+<p>Ahora si, en Visual Studio, abrimos el repositorio en el WorkSpace. Visual Studio es un editor de código, que facilita la experiencia de hacer código y sincronizar con el repositorio remoto desde el local. </p>
+<p><em>El uso de este editor es familiar para mi desde antes</em></p>
+<p>Cada vez que hago un &ldquo;push&rdquo; de mi código nuevo esto genera una actualización en <span style="color:#e5446d"><i>Mi Pedacito de Internet</i></span>. </p>
+<p>Y aca tenemos&hellip; el lugar donde estoy pudiendo leer esto. Una matrix en si misma. </p>
+<p><em>Toda la edición de colores, tipografía, añadido de imágenes, la hice con asistencia de CoPilot de Visual Studio y ChatGPT.</em> </p>
+<p><img alt="" src="../../images/jazmin2.png" /></p>
                 
                   
                     
@@ -575,7 +654,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 20, 2025 23:26:04 UTC">September 20, 2025</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 21, 2025 00:44:15 UTC">September 21, 2025</span>
     
   </small>
 </div>
